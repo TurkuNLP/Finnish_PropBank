@@ -1,0 +1,35 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}{% capture language %}{% if page.collection %}{{ page.collection | split:'-' | first }}{% endif %}{% endcapture %}{% capture category %}{% if page.collection %}{{ page.collection | split:'-' | last }}{% endif %}{% endcapture %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ relative }}stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ relative }}stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ relative }}stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>{{ page.lemma }}</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h2>{{ page.lemma }}</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+	  {{ content }}
+	</section>
+      </div>
+    </div>
+  </body>
+</html>

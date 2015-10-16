@@ -1,0 +1,7 @@
+markdown:     kramdown
+markdown_ext: md
+
+collections:
+ lemmas:
+   output: true
+
