@@ -1,2 +1,2 @@
-# Finnish_PropBank
+# Finnish PropBank
 Finnish Proposition Bank
