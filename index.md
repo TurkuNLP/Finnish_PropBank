@@ -2,6 +2,16 @@
 layout: base
 ---
 
+# About
+
+PropBank
+
+# Download
+
+The data will be available for download shortly.
+
+# Browse online
+
 <table id="lemmatable" class="display">
 <thead>
 <tr>
@@ -17,6 +27,6 @@ layout: base
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#lemmatable').DataTable();
+    $('#lemmatable').DataTable({ autoFill: true });
 } );
 </script>
