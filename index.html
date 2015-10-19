@@ -28,14 +28,26 @@
   <body>
     <header>
       <div class="inner">
-        <h2>syödä</h2>
+        <h1>Finnish PropBank</h1>
       </div>
     </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
+
+
+<div id="content-wrapper">
+    <div class="inner clearfix">
         <section id="main-content">
-	  <table id="lemmatable" class="display">
+	  <h1 id="about">About</h1>
+
+<p>PropBank</p>
+
+<h1 id="download">Download</h1>
+
+<p>The data will be available for download shortly.</p>
+
+<h1 id="browse-online">Browse online</h1>
+
+<table id="lemmatable" class="display">
 <thead>
 <tr>
 <th>Lemma</th>
@@ -4916,7 +4928,7 @@
 
 <script type="text/javascript">
 $(document).ready( function () {
-    $('#lemmatable').DataTable();
+    $('#lemmatable').DataTable({ autoFill: true });
 } );
 </script>
 
