@@ -731,6 +731,10 @@ p {
   margin-bottom: 20px;
 }
 
+.inner > h2 > a {
+  color: #fafafa;
+}
+
 a {
   text-decoration: none;
 }
