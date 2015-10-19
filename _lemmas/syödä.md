@@ -3,10 +3,19 @@ layout: lemma
 lemma: syödä
 ---
 
-# Senses
+<div class="sense">
+# <span class="sensename">syödä.1</span>
 
-Some sense and what not
+<span class="description">Consume, eat (e.g. food)</span>
 
-# Examples
+(tags: seed:syödä, model:eat.01)
 
-Blah blah
+<span class="description">Nauttia, syödä (esim. ruokaa)</span>
+
+
+
+A0 | Entity eating |   | Taho, joka syö |  
+A1 | Entity or thing eaten |   | Taho tai asia joka syödään |  
+
+</div>
+

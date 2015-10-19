@@ -1,6 +1,9 @@
 markdown:     kramdown
 markdown_ext: md
 
+kramdown:
+  parse_block_html: true
+
 collections:
  lemmas:
    output: true
