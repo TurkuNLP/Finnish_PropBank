@@ -1,0 +1,3 @@
+def get_senses():
+    with codecs.open("pb-defs.tsv","r","utf-8") as f:
+        
