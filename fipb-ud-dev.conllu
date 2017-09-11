@@ -1941,7 +1941,7 @@
 6	.	.	PUNCT	Punct	_	1	punct	_	_
 
 # sentence-text: Lisä mausteet ja halutessasi hieman paprikasuikaleita tai tuoretta chiliä.
-1	Lisä	lisätä	VERB	V	Mood=Imp|Number=Sing|Person=2|Typo=Yes|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Lisä	lisätä	VERB	V	Mood=Imp|Number=Sing|Person=2|Typo=Yes|VerbForm=Fin|Voice=Act	0	root	_	PBSENSE=lisätä.4
 2	mausteet	mauste	NOUN	N	Case=Nom|Number=Plur	1	dobj	1:PBArg_1	_
 3	ja	ja	CONJ	C	_	1	cc	_	_
 4	halutessasi	haluta	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=2|VerbForm=Inf|Voice=Act	1	advcl	1:PBArgM_adv	PBSENSE=haluta.1
